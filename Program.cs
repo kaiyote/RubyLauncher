@@ -30,7 +30,7 @@ namespace RubyLauncher
                 WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden,
                 UseShellExecute = false,
                 RedirectStandardError = true,
-                RedirectStandardInput = true,
+                RedirectStandardOutput = true,
                 CreateNoWindow = true,
                 FileName = "cmd.exe",
                 Arguments = "/C ruby " + arguments,
